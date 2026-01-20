@@ -8,24 +8,24 @@ export function FeaturesSection() {
       label: "Eco",
       title: "100% Organic",
       description:
-        "From organic ingredients to sustainable packaging, we care about the environment.",
-      color: "text-green-600",
+        "Pure produce, no additives or preservatives.",
+      color: "text-citrus-orange",
     },
     {
       icon: MapPin,
       label: "Visit",
       title: "Visit In-Store",
       description:
-        "Made and available for pickup at our location in FL 33143 Mon - Fri 9am - 5pm.",
-      color: "text-orange-600",
+        "Order and pick up at our store on Khan Street Eros Park " + "\n" + "  Mon - Fri 9am - 5pm.",
+      color: "text-citrus-orange",
     },
     {
       icon: Heart,
       label: "Family",
       title: "Family Owned",
       description:
-        "Cultivated from our small family-owned farm. We believe that everyone deserves a taste of goodness.",
-      color: "text-red-500",
+        "Crafted with care in our local kitchen.",
+      color: "text-citrus-orange",
     },
   ];
 
@@ -42,9 +42,9 @@ export function FeaturesSection() {
                 <div className="flex justify-center mb-3">
                   <feature.icon className={`w-8 h-8 ${feature.color}`} />
                 </div>
-                <p className={`text-sm font-semibold ${feature.color} mb-1`}>
+                {/* <p className={`text-sm font-semibold ${feature.color} mb-1`}>
                   {feature.label}
-                </p>
+                </p> */}
                 <CardTitle className="text-xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="text-center">

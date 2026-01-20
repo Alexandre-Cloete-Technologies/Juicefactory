@@ -24,25 +24,25 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             <Link
-              href="#menu"
+              href="/"
               className="text-gray-700 hover:text-orange-500 transition-colors font-medium"
             >
               Menu
             </Link>
             <Link
-              href="#location"
+              href="/"
               className="text-gray-700 hover:text-orange-500 transition-colors font-medium"
             >
               Location
             </Link>
             <Link
-              href="#story"
+              href="/"
               className="text-gray-700 hover:text-orange-500 transition-colors font-medium"
             >
               Our Story
             </Link>
             <Link
-              href="#contact"
+              href="/"
               className="text-gray-700 hover:text-orange-500 transition-colors font-medium"
             >
               Contact Us

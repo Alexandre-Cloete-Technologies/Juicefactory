@@ -51,8 +51,8 @@ export function JuicesSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Our Juices
           </h2>
-          <p className="text-green-600 font-medium">
-            All available in COOPER, FL 21 and 16 FLZ
+          <p className="text-fresh-green font-medium">
+            All available in 500ML, 1L, 2L and 5L!
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import { Share2, Instagram } from "lucide-react";
+import {  Instagram, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -21,7 +21,7 @@ export function Footer() {
                 className="p-2 border border-gray-300 rounded-full hover:bg-gray-200 transition-colors"
                 aria-label="Share"
               >
-                <Share2 className="w-4 h-4 text-gray-600" />
+                <Facebook className="w-4 h-4 text-gray-600" />
               </button>
               <button
                 className="p-2 border border-gray-300 rounded-full hover:bg-gray-200 transition-colors"

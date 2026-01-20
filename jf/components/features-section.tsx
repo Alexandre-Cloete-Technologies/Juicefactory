@@ -16,7 +16,7 @@ export function FeaturesSection() {
       label: "Visit",
       title: "Visit In-Store",
       description:
-        "Order and pick up at our store on Khan Street Eros Park " + "\n" + "  Mon - Fri 9am - 5pm.",
+        "Order and pick up at our store on Khan Street Eros Park \n Mon - Fri 9am - 5pm.",
       color: "text-citrus-orange",
     },
     {
@@ -48,7 +48,7 @@ export function FeaturesSection() {
                 <CardTitle className="text-xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
                   {feature.description}
                 </p>
               </CardContent>
